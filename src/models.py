@@ -10,7 +10,7 @@ def getModel():
     return tf.keras.models.Sequential([
     tf.keras.layers.Flatten(input_shape=(10,11)),
     tf.keras.layers.Dense(128, activation='relu'),
-    tf.keras.layers.Dense(32, activation='relu'),
-    tf.keras.layers.Dense(8, activation='relu'),
+    # tf.keras.layers.Dense(32, activation='relu'),
+    # tf.keras.layers.Dense(8, activation='relu'),
     tf.keras.layers.Dense(1, activation='sigmoid')
     ])

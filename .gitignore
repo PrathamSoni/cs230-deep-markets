@@ -131,3 +131,4 @@ dmypy.json
 .idea
 /data/sp.h5
 /data/sp500.csv
+/logs/best_model.h5
