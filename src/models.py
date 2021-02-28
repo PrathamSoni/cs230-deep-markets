@@ -8,9 +8,11 @@ import os
 
 def getModel():
     return tf.keras.models.Sequential([
-    tf.keras.layers.Flatten(input_shape=(10,11)),
-    tf.keras.layers.Dense(128, activation='relu'),
+    tf.keras.layers.Conv2D(8, (3,3), activation='relu', input_shape=(10,11,1)),
+    tf.keras.layers.Conv2D(4, (1,1), activation='relu', input_shape=(10,11,1)),
+    tf.keras.layers.Flatten(),
+    # tf.keras.layers.Dense(16, activation='relu'),
     # tf.keras.layers.Dense(32, activation='relu'),
-    # tf.keras.layers.Dense(8, activation='relu'),
+    #tf.keras.layers.Dense(8, activation='relu'),
     tf.keras.layers.Dense(1, activation='sigmoid')
     ])

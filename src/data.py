@@ -49,7 +49,7 @@ def get_sp():
     val_y = labels[val]
     test_X = data[test]
     test_y = labels[test]
-    return train_X, train_y, val_X, val_y, test_X, test_y
+    return np.expand_dims(train_X, 3), train_y, np.expand_dims(val_X, 3), val_y, np.expand_dims(test_X, 3), test_y
 
 
 def split_sp():
