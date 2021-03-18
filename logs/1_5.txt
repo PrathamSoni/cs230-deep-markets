@@ -1,0 +1,2 @@
+Time: 509.3440933227539, iters: 10, average auc: 0.631, average acc: 0.949
+Time: 509.3440933227539, iters: 10, std auc: 0.132, std acc: 0.000

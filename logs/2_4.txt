@@ -1,0 +1,12 @@
+Time: 571.392626285553, iters: 10, average auc: 0.564, average acc: 0.948
+Time: 571.392626285553, iters: 10, std auc: 0.086, std acc: 0.004
+Time: 485.08373188972473, iters: 10, average auc: 0.570, average acc: 0.942
+Time: 485.08373188972473, iters: 10, std auc: 0.070, std acc: 0.014
+Time: 549.9314675331116, iters: 10, average auc: 0.546, average acc: 0.937
+Time: 549.9314675331116, iters: 10, std auc: 0.057, std acc: 0.015
+Time: 413.69876623153687, iters: 10, average auc: 0.594, average acc: 0.937
+Time: 413.69876623153687, iters: 10, std auc: 0.033, std acc: 0.013
+Time: 456.1985762119293, iters: 10, average auc: 0.579, average acc: 0.934
+Time: 456.1985762119293, iters: 10, std auc: 0.059, std acc: 0.014
+Time: 521.2144751548767, iters: 10, average auc: 0.573, average acc: 0.943
+Time: 521.2144751548767, iters: 10, std auc: 0.095, std acc: 0.010
